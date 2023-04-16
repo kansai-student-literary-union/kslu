@@ -3,14 +3,14 @@
 h1 {
 font-weight:600;
 font-size: 2.5em;
-color: white;
+color: black;
 }
 #left {
 list-style-position: inside;
 float: left;
 width: 25%;
 height: 100%;
-background: #ff0000;
+background: #ADE0EE;
 text-align: left;
 color: black;
 }
@@ -18,7 +18,7 @@ color: black;
 float: left;
 width: 50%;
 height: 100%;
-background: #ffff00;
+background: #FFEF6C;
 text-align: left;
 /*margin-bottom: 0px;*/
 }
@@ -27,14 +27,14 @@ list-style-position: inside;
 float: left;
 width: 25%;
 height: 100%;
-background: #00ffff;
+background: #FEEEED;
 text-align: left;
 }
 
 
 body {
 font-family: 'Noto Sans JP', sans-serif;
-background-color: green;
+background-color: #CEE6C1;
 font-size: 1em;
     }
 
