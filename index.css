@@ -1,5 +1,15 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjp.css);
+.btn {
+display: flex;
+    box-sizing: border-box;
+    background-color: #cbfd23;
+    color: #000000;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 10%;
+}
 h1 {
 font-weight:600;
 font-size: 2.5em;
