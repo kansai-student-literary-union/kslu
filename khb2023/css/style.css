@@ -136,9 +136,35 @@ header a {
     margin-bottom: 1.5rem;
 }
 
-/*
-ABOUT
-================================================ */
+/*Meaning================================================ */
+#meaning {
+    padding: 4rem 1rem;
+}
+#meaning h2 {
+    background: linear-gradient(to left, var(--red), var(--pastelred));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+}
+.meaning-list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.meaning-text {
+    margin-left: 1rem;
+}
+
+#meaning h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+#meaning p {
+    margin: 1rem;
+}
+
+/*ABOUT================================================ */
 #about {
     background-image: linear-gradient(var(--deepred), var(--pastelred));
     padding: 7rem 0;
@@ -157,9 +183,36 @@ ABOUT
     text-decoration: underline;
     color: #0000ff;
 }
-/*
-NEWS
-================================================ */
+
+/*Detail================================================ */
+#detail {
+    padding: 4rem 1rem;
+}
+#detail h2 {
+    background: linear-gradient(to left, var(--red), var(--pastelred));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-fill-color: transparent; */
+}
+.entry-list {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.detail-text {
+    margin-left: 1rem;
+}
+
+#detail h3 {
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}
+#detail p {
+    margin: 1rem;
+}
+
+/*NEWS================================================ */
 #news {
     background-image: linear-gradient(var(--pastelred), var(--red));
     padding: 7rem 0;
@@ -193,34 +246,6 @@ NEWS
 .news p{
     padding-bottom: 1rem;
     text-align: left;
-}
-
-/*Meaning================================================ */
-#meaning {
-    padding: 4rem 1rem;
-}
-#meaning h2 {
-    background: linear-gradient(to left, var(--red), var(--pastelred));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* text-fill-color: transparent; */
-}
-.meaning-list {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-.meaning-text {
-    margin-left: 1rem;
-}
-
-#meaning h3 {
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-}
-#meaning p {
-    margin: 1rem;
 }
 
 /*entry================================================ */
@@ -257,36 +282,8 @@ NEWS
     text-decoration: underline;
     color: #0000ff;
 }
-/*Detail================================================ */
-#detail {
-    padding: 4rem 1rem;
-}
-#detail h2 {
-    background: linear-gradient(to left, var(--red), var(--pastelred));
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* text-fill-color: transparent; */
-}
-.entry-list {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 2rem;
-}
-.detail-text {
-    margin-left: 1rem;
-}
 
-#detail h3 {
-    font-size: 1.5rem;
-    margin-bottom: .5rem;
-}
-#detail p {
-    margin: 1rem;
-}
-/*
-expl
-================================================ */
+/*expl================================================ */
 #expl {
     background-image: linear-gradient(var(--pastelred), var(--deepred));
     padding: 6rem 1rem 2rem;
