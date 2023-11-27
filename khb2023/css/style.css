@@ -327,9 +327,11 @@ header a {
 #expl h3 {
     font-size: 1.5rem;
     margin-bottom: .5rem;
+    text-align: left;
 }
 #expl p {
     margin: 1rem;
+    text-align: left;
 }
 .contact-table {
     color: var(--white);
