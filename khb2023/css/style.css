@@ -163,7 +163,7 @@ header a {
 #meaning p {
     margin: 1rem;
 }
-#about a {
+#meaning a {
     text-decoration: underline;
 }
 
@@ -214,7 +214,7 @@ header a {
 #detail p {
     margin: 1rem;
 }
-#about a {
+#detail a {
     text-decoration: underline;
     color: #0000ff;
 }
