@@ -108,7 +108,7 @@ header a {
     background-position: center;
     background-size: cover;
     background-blend-mode: screen;
-    animation: bg-color 12s 1;
+    animation: bg-color 6s 1;
     animation-fill-mode: forwards;
     height: 100vh;
     display: flex;
@@ -118,9 +118,8 @@ header a {
 }
 @keyframes bg-color {
     0% { background-color: var(--pastelred); }
-    30% { background-color: var(--white); }
-    60% { background-color: var(--red); }
-    80% { background-color: var(--deepred); }
+    40% { background-color: var(--red); }
+    80% { background-color: var(--white); }
     100% { background-color: var(--pastelred); }
 }
 #hero h1 {
