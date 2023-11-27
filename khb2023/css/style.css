@@ -140,7 +140,7 @@ header a {
 ABOUT
 ================================================ */
 #about {
-    background-image: linear-gradient(var(--pastelred), var(--deepred));
+    background-image: linear-gradient(var(--deepred), var(--pastelred));
     padding: 7rem 0;
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
@@ -161,7 +161,7 @@ ABOUT
 NEWS
 ================================================ */
 #news {
-    background-image: linear-gradient(var(--red), var(--pastelred));
+    background-image: linear-gradient(var(--pastelred), var(--red));
     padding: 7rem 0;
     -webkit-clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
     clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
