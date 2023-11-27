@@ -123,7 +123,8 @@ header a {
     100% { background-color: var(--pastelred); }
 }
 #hero h1 {
-    margin: 2rem;
+    margin-top: 3rem;
+    padding:  3rem;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
