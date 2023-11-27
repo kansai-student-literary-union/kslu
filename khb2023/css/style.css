@@ -164,6 +164,9 @@ header a {
 #meaning p {
     margin: 1rem;
 }
+#about a {
+    text-decoration: underline;
+}
 
 /*ABOUT================================================ */
 #about {
