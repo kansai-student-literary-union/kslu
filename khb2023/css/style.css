@@ -43,7 +43,6 @@ h2 {
 h1,
 .hero-date {
     font-family: 'Dela Gothic One', sans-serif;
-
 }
 
 /* Layout */
@@ -124,6 +123,7 @@ header a {
     100% { background-color: var(--pastelred); }
 }
 #hero h1 {
+    padding: 2rem;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
