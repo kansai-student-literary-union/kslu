@@ -214,7 +214,10 @@ header a {
 #detail p {
     margin: 1rem;
 }
-
+#about a {
+    text-decoration: underline;
+    color: #0000ff;
+}
 /*NEWS================================================ */
 #news {
     background-image: linear-gradient(var(--pastelred), var(--red));
