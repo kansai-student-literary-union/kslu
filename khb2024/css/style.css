@@ -100,8 +100,8 @@ header a {
     width: 100%;
 }
 
-/*HERO================================================ */
-#hero {
+/*top================================================ */
+#top {
     /* ↓ 省略形だとブラウザーによってうまく表示されない
     background: var(--light-blue) url('../images/hero.jpg') no-repeat center / cover; */
     background-repeat: no-repeat;
@@ -122,12 +122,12 @@ header a {
     80% { background-color: var(--white); }
     100% { background-color: var(--pastelred); }
 }
-#hero h1 {
+#top h1 {
     padding-top: 6rem;
     font-size: 3rem;
     margin-bottom: 1rem;
 }
-.hero-date {
+.date {
     text-align: center;
     border-top: 3px solid var(--grey);
     border-bottom: 3px solid var(--grey);
