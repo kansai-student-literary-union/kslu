@@ -366,6 +366,9 @@ FOOTER
     text-decoration: underline;
     color: #0000ff;
 }
+.footer p{
+	text-align: center;
+}
 
 /*
 DESKTOP SIZE
