@@ -359,15 +359,12 @@ FOOTER
     border-top: 1px solid rgba(255,255,255,0.5);
     padding-top: 2rem;
     text-align: center;
-    font-size: .875rem;
+    font-size: 1rem;
     color: var(--white);
 }
 .footer a {
     text-decoration: underline;
     color: #0000ff;
-}
-.footer p{
-	text-align: center;
 }
 
 /*
