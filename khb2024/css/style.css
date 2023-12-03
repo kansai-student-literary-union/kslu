@@ -136,6 +136,13 @@ header a {
     margin-bottom: 1.5rem;
 }
 
+.sponsore {
+    text-align: left;
+    padding: .5rem 0;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
 /*Meaning================================================ */
 #meaning {
     padding: 4rem 1rem;
