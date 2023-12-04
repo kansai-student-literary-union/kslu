@@ -125,7 +125,6 @@ header a {
 #top h1 {
     padding-top: 6rem;
     font-size: 3rem;
-    margin-bottom: 1rem;
 }
 .date {
     text-align: center;
@@ -139,7 +138,7 @@ header a {
 .sponsore {
     text-align: left;
     font-size: 3rem;
-    font-family: 'Dela Gothic One', sans-serif;
+    font-family: 'Zen Antique', serif;
 }
 
 /*Meaning================================================ */
