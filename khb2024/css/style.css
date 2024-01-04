@@ -287,7 +287,7 @@ header .logo{
 
 /*entry================================================ */
 #entry {
-    padding: 4rem 1rem;
+    padding: 5rem 1rem;
 }
 .entry-list {
     display: flex;
@@ -468,9 +468,7 @@ DESKTOP SIZE
     }
     
 /* entry */
-    #entry h2 {
-        margin-bottom: 4rem;
-    }
+
     .entry-list {
         margin-bottom: 3rem;
     }
