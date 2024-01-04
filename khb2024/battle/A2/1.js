@@ -12,7 +12,7 @@ function showRed() {
 function showWhite() {
   if (!whiteShown) {
     whiteShown = true;
-    right.textContent = teamnam3[2][1];
+    right.textContent = teamname3[2][1];
     btnB.style.display = "none";
   }
 }
