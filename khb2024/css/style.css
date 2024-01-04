@@ -490,7 +490,7 @@ DESKTOP SIZE
         display: table-cell;
     }
     .judge-name {
-        padding: 1.125rem 0 1rem 1rem;
+        padding: 1rem 0 1rem 1rem;
 	font-size: 1rem;
     }
     .judge-content {
