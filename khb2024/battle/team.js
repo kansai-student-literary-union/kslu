@@ -1,10 +1,10 @@
-var teamname1 = nadaA
-var teamname2 = nadaB
-var teamname3 = rakunan
-var teamname4 = okayamaasahi
-var teamname5 = osakatoin
-var teamname6 = nagata
+var teamname1 = nadaB
+var teamname2 = rakunan
+var teamname3 = osakatoin
+var teamname4 = nagata
+var teamname5 = nadaA
+var teamname6 = okayamaasahi
 
-var teamnamefin1 = nadaA
-var teamnamefin2 = nadaB
+var teamnamefin1 = ""
+var teamnamefin2 = ""
 
