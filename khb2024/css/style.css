@@ -41,7 +41,8 @@ h2 {
     text-align: center;
 }
 h1,
-.date {
+.date,
+.result{
     font-family: 'Dela Gothic One', sans-serif;
 }
 
@@ -460,8 +461,11 @@ DESKTOP SIZE
     #top h1 {
         font-size: 4rem;
     }
-    .date {
+    .date{
         font-size: 3rem;
+    }
+    .date{
+        font-size: 2rem;
     }
 
 /* News */
