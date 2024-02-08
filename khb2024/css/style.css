@@ -274,12 +274,9 @@ header .logo{
     line-height: 1.5;
 }
 .news-date {
-    font-size: 1.2rem;
-}
-.news-content {
     font-size: 1rem;
 }
-.news-haiku {
+.news-content {
     font-size: 1rem;
 }
 .news p{
