@@ -159,7 +159,7 @@ div.link{
   width: 100%;
 }
 
-@media (width <= 600px) {
+@media (width <= 750px) {
   header {
     height: 80px;
     padding-left: 5px;
