@@ -1,0 +1,185 @@
+header {
+  margin: 0px;
+  width: 100%;
+  background: linear-gradient(to right, 
+  #000000 0% 10%,
+  #111111 10% 20%,
+  #222222 20% 30%,
+  #333333 30% 40%,
+  #444444 40% 50%,
+  #666666 50% 60%,
+  #999999 60% 70%,
+  #aaaaaa 70% 80%,
+  #dddddd 80% 90%,
+  #ffffff 90% 100% );
+  height: 120px;
+  display: flex;
+  justify-content: right;
+}
+
+div.header{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  width: 100%;
+}
+
+div.topper{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "ヒラギノ角ゴ ProN";
+  font-weight: 300;
+  height: 60px;
+  text-align: center;
+  line-height:60px; /*テキストが1行のときのみ、上下中央ぞろえが実装できる*/
+}
+
+div.topline {
+border-left:2px solid #ffffff;
+border-right:2px solid #ffffff;
+text-align: right;
+margin-left: 10px;
+padding-top: 30px;
+padding-left: 15px;
+padding-right: 10px;
+}
+
+div.topper a{
+  color:#ffffff;
+}
+
+div.topper a:hover{
+  text-decoration: underline;
+}
+
+
+dl {
+  margin: 0px;
+  width: max-content;
+  max-width: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+dt {
+  text-align-last: justify;
+  font-family: "ヒラギノ角ゴ ProN";
+  font-weight: 500;
+}
+div.big {
+  font-size: x-large;
+}
+div.small {
+  font-size: small;
+}
+
+body{
+  font-family: "ヒラギノ明朝 ProN";
+  margin: 0px;
+  background-color:#fffaef
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 30px;
+  justify-content: center;
+}
+
+h1{
+  font-family: "ヒラギノ角ゴ ProN";
+  vertical-align: middle;
+}
+
+h2{
+  font-family: "ヒラギノ角ゴ ProN";
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+p{
+  margin: 0px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+main div.card {
+  /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
+  width: calc((100% - 85px) / 3);
+  background-color: #dcdddd;
+  transition: background-color 0.5s;
+  border: 4px solid #dcdddd;
+}
+
+div.card:hover {
+  background-color: bisque;
+  border: 4px solid bisque;
+}
+
+a{
+  color: black;
+}
+
+div.card a{
+  color: black;
+  text-decoration: none;
+}
+
+.image{
+  padding-left: 10px;
+}
+
+div.list{
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  row-gap: 5px;
+}
+
+div.table{
+  justify-content: space-between;
+  display: table;
+}
+
+
+div.link{
+  text-decoration: underline;
+}
+
+.footer {
+  border-top: 1px solid #000000;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+}
+
+@media (width <= 600px) {
+  header {
+    height: 80px;
+    padding-left: 5px;
+  }
+  
+  div.topline{
+    margin-top: 0px;
+  }
+
+  main div.card {
+    /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
+    width: calc(100% - 10px);
+  }
+
+div.table{
+  margin-right: 10px;
+  }
+
+div.image{
+  display: none;
+}
+
+}
