@@ -1,2 +1,2 @@
 const matchid = document.getElementById('matchid');
-matchid.textContent = "試合TOP";
+matchid.innerHTML = "試合TOP";

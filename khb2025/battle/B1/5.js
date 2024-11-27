@@ -20,4 +20,4 @@ btnA.addEventListener('click', showRed);
 btnB.addEventListener('click', showWhite);
 
 const matchid = document.getElementById('matchid');
-matchid.textContent = "大将戦";
+matchid.innerHTML = "大将戦";
