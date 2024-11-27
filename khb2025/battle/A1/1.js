@@ -4,7 +4,7 @@ let whiteShown = false;
 function showRed() {
   if (!redShown) {
     redShown = true;
-    left.textContent = teamname1[1][1];//[1]が兼題１、[1]が先鋒句を意味する
+    left.innerHTML = teamname1[1][1];//[1]が兼題１、[1]が先鋒句を意味する
     btnA.style.display = "none";
   }
 }
