@@ -4,7 +4,7 @@ let whiteShown = false;
 function showRed() {
   if (!redShown) {
     redShown = true;
-    left.textContent = teamname1[1][3];//[1]が兼題１、[3]が中堅句を意味する
+    left.innerHTML = teamname1[1][3];//[1]が兼題１、[3]が中堅句を意味する
     btnA.style.display = "none";
   }
 }
@@ -12,7 +12,7 @@ function showRed() {
 function showWhite() {
   if (!whiteShown) {
     whiteShown = true;
-    right.textContent = teamname2[1][3];
+    right.innerHTML = teamname2[1][3];
     btnB.style.display = "none";
   }
 }

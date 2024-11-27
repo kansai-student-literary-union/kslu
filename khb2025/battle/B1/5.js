@@ -4,7 +4,7 @@ let whiteShown = false;
 function showRed() {
   if (!redShown) {
     redShown = true;
-    left.textContent = teamname4[1][5];//[1]が兼題１、[5]が大将句を意味する
+    left.innerHTML = teamname4[1][5];//[1]が兼題１、[5]が大将句を意味する
     btnA.style.display = "none";
   }
 }
@@ -12,7 +12,7 @@ function showRed() {
 function showWhite() {
   if (!whiteShown) {
     whiteShown = true;
-    right.textContent = teamname5[1][5];
+    right.innerHTML = teamname5[1][5];
     btnB.style.display = "none";
   }
 }
