@@ -56,13 +56,6 @@ h2 {
     font-size: 1em;
     margin-bottom: 0.5rem;
 }
-.comment {
-    background: rgba(255,255,255,.6);
-    padding: 0.5rem;
-    width: auto;
-    font-size: 1em;
-    margin-bottom: 0.5rem;
-}
 .submit {
     background: var(--grey);
     color: var(--white);
@@ -81,9 +74,6 @@ h2 {
     background-color: var(--pastelyellow);
 }
 .name:focus-visible {
-    background-color: var(--pastelyellow);
-}
-.comment:focus-visible {
     background-color: var(--pastelyellow);
 }
 
@@ -106,12 +96,6 @@ h2 {
             background: rgba(255,255,255,.6);
             padding: 0.5rem;
             width: 40%;
-            margin-bottom: 0.5rem;
-        }
-        .comment {
-            background: rgba(255,255,255,.6);
-            padding: 0.5rem;
-            width: 100%;
             margin-bottom: 0.5rem;
         }
         .submit {
