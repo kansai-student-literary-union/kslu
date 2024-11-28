@@ -56,6 +56,13 @@ h2 {
     font-size: 1em;
     margin-bottom: 0.5rem;
 }
+.comment {
+    background: rgba(255,255,255,.6);
+    padding: 0.5rem;
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.5rem;
+}
 .submit {
     background: var(--grey);
     color: var(--white);
@@ -67,12 +74,16 @@ h2 {
 }
 .submit:hover {
     background: var(--deepyellow);
+    color: #000000;
 }
 
 .haiku:focus-visible {
     background-color: var(--pastelyellow);
 }
 .name:focus-visible {
+    background-color: var(--pastelyellow);
+}
+.comment:focus-visible {
     background-color: var(--pastelyellow);
 }
 
