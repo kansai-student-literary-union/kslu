@@ -211,3 +211,6 @@ display: inline-block;
 .hikou {
 writing-mode: horizontal-tb;
 }
+.tcy {
+    text-combine-upright: all;
+}
