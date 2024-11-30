@@ -64,6 +64,18 @@ haiku.jsに存在する定数名を使い，
 以下が完成したファイルの見本である．ただし，説明文は省いている．実際には，説明文は削除しないこと．
 説明文末尾のアスタリスクおよび半角スラッシュの下に，1行空けて，以下の例のようになっていればよい（変数名はhaiku.jsに応じて変更すること）．
 
+（組み合わせ抽選前）
+
+    const teamname1 = "";
+    const teamname2 = "";
+    const teamname3 = "";
+    const teamname4 = "";
+    const teamname5 = "";
+    const teamname6 = "";
+
+    const teamnamefin1 = "";
+    const teamnamefin2 = "";
+
 （決勝戦進出チーム決定前）
 
     const teamname1 = kansaiA;
