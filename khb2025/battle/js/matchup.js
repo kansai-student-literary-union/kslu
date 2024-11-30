@@ -58,7 +58,7 @@ haiku.jsに存在する定数名を使い，
     const finteamname1 = kansaiA;
     const finteamname2 = kansaiB;
 
-のようにすること．紅がfinteamname1のチーム，白がfinteamname2のチームである．
+のようにすること．紅（すなわち，Aブロックで勝利したチーム）がfinteamname1のチーム，白（すなわち，Bブロックで勝利したチーム）がfinteamname2のチームである．
 ここではダブルクォーテーションマークは「つけてはならない」．
 
 以下が完成したファイルの見本である．ただし，説明文は省いている．実際には，説明文は削除しないこと．
