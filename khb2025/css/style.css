@@ -120,10 +120,11 @@ header .logo{
     clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
 }
 @keyframes bg-color {
-    0% { background-color: var(--pastelyellow); }
-    20% { background-color: var(--yellow); }
-    80% { background-color: var(--white); }
-    100% { background-color: var(--pastelyellow); }
+    0% { background-color: #000000; }
+    10% { background-color: var(--pastelyellow); }
+    80% { background-color: var(--yellow); }
+    90% { background-color: var(--white); }
+   100% { background-color: var(--pastelyellow); }
 }
 #top h1 {
     padding-top: 6rem;
