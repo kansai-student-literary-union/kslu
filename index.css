@@ -27,7 +27,7 @@ div.header{
 div.topper{
   background-color: #000000;
   color: #ffffff;
-  font-family: "ヒラギノ角ゴ";
+  font-family: "ヒラギノ角ゴ ProN";
   font-weight: 300;
   height: 60px;
   text-align: center;
@@ -62,7 +62,7 @@ dl {
 }
 dt {
   text-align-last: justify;
-  font-family: "ヒラギノ角ゴ";
+  font-family: "ヒラギノ角ゴ ProN";
   font-weight: 500;
 }
 div.big {
@@ -73,7 +73,7 @@ div.small {
 }
 
 body{
-  font-family: "ヒラギノ明朝";
+  font-family: "ヒラギノ明朝 ProN";
   margin: 0px;
   background-color:#fffaef
 }
@@ -87,12 +87,12 @@ main {
 }
 
 h1{
-  font-family: "ヒラギノ角ゴ";
+  font-family: "ヒラギノ角ゴ ProN";
   vertical-align: middle;
 }
 
 h2{
-  font-family: "ヒラギノ角ゴ";
+  font-family: "ヒラギノ角ゴ ProN";
   margin: 0px;
   padding-top: 2px;
   padding-bottom: 2px;

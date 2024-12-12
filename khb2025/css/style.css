@@ -20,7 +20,7 @@ html {
 }
 body {
 	color: var(--grey);
-	font-family: "ヒラギノ明朝";
+	font-family: "ヒラギノ明朝 ProN";
 }
 
 /*COMMON================================================ */
@@ -90,7 +90,7 @@ header .logo{
     right: 0;
     overflow: hidden;
     transition: .5s;
-    font-family: "ヒラギノ明朝";
+    font-family: "ヒラギノ明朝 ProN";
 }
 .main-nav li {
     text-align: center;
