@@ -20,7 +20,7 @@ html {
 }
 body {
 	color: var(--grey);
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: "ヒラギノ明朝";
 }
 
 /*COMMON================================================ */
@@ -90,7 +90,7 @@ header .logo{
     right: 0;
     overflow: hidden;
     transition: .5s;
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "ヒラギノ明朝";
 }
 .main-nav li {
     text-align: center;
