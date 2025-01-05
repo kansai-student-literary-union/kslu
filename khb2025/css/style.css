@@ -41,7 +41,8 @@ h2 {
     text-align: center;
 }
 h1,
-.date {
+.date,
+.result{
     font-family: 'Dela Gothic One', sans-serif;
 }
 
@@ -140,7 +141,14 @@ header .logo{
     font-size: 3rem;
     margin-bottom: 1.5rem;
 }
-
+.result {
+    text-align: center;
+    color: #000000;
+    text-decoration: underline;
+    padding: .5rem 0;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 .sponsore {
     text-align: left;
     font-size: 2rem;
