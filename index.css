@@ -128,6 +128,9 @@ a{
 .news{
   padding: 12px;
 }
+table{
+  padding: 12px;
+}
 .news-table {
     width: 100%;
     text-align: center;
