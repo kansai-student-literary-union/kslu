@@ -112,7 +112,7 @@ p{
     width: 100%;
     text-align: center;
     border: 1px dashed;
-    padding: 10px;
+    padding: 30px;
 }
 .news-table tr {
     border-radius: 10px; 
@@ -186,15 +186,14 @@ div.link{
 
 @media (width <= 1200px) {
 html{
-  font-size: 100%;
+  font-size: 200%;
 }
 .news-table td {
     display: block;
-    line-height: 1.5;
 }
 .name {
   padding: 1rem 0 1rem 1rem;
-	font-size: 1rem;
+  font-size: 1rem;
 }
 .news {
   padding: 1rem;
