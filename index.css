@@ -58,9 +58,9 @@ div.topper a:hover{
   text-decoration: underline;
 }
 
-
 dl {
   margin: 0px;
+  padding: 5px;
   width: max-content;
   max-width: 100%;
   display: table-cell;
@@ -95,13 +95,15 @@ main {
 h1{
   font-family: "ヒラギノ角ゴ ProN";
   vertical-align: middle;
+  font-size: 2rem;
   margin: 0px;
   padding: 5px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 h2{
   font-family: "ヒラギノ角ゴ ProN";
+  font-size: 1.5rem;
   margin: 0px;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -115,6 +117,11 @@ p{
   padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
+}
+
+a{
+  text-decoration: underline;
+  color: #0000ff;
 }
 .news{
   padding: 12px;
