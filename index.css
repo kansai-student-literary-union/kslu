@@ -128,6 +128,8 @@ a{
   margin: 12px;
   padding: 5px 5px 0 5px;
   border: 1px dashed;
+  height: 120px;
+  overflow-y: scroll;
 }
 
 .news-table {
