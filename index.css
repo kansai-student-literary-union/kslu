@@ -104,8 +104,8 @@ h1{
 
 h2{
   font-family: "ヒラギノ角ゴ ProN";
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin: 0px;
   padding-top: 2px;
   padding-bottom: 2px;
@@ -136,8 +136,8 @@ a{
 }
 .news-table tr {
     background-image: linear-gradient( to right, #e0ffff, #ffffff);
-    padding-top: 3px;
-    padding-bottom: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 .news-table td {
     display: block;
@@ -199,7 +199,7 @@ div.link{
 }
 
 @media (min-width: 750px) {
-  .news-table td {
+.news-table td {
   display: table-cell;
 }
 
@@ -218,7 +218,7 @@ header {
     font-size: 1.5rem;
   }
   div.small {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   
 main div.card {
