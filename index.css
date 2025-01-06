@@ -127,14 +127,12 @@ a{
 }
 .news{
   padding: 12px;
+  border: 1px dashed;
 }
-tbody{
-  padding: 12px;
-}
+
 .news-table {
     width: 100%;
     text-align: center;
-    border: 1px dashed;
     padding: 10px;
 }
 .news-table tr {
