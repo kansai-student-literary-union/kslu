@@ -144,13 +144,13 @@ a{
     display: block;
 }
 .date {
-  padding: 0.5rem;
+  padding: 0.5rem 0.5rem 0 0.5rem;
   background-color: #e0ffff;
   font-size: 1rem;
   text-align: left;
 }
 .info {
-  padding: 0.5rem;
+  padding: 0 0.5rem 0.5rem 0.5rem;
   background-color: #e0ffff;
   text-align: left;
 }
@@ -220,12 +220,12 @@ header {
   height: 110px;
   }
 
-  div.big {
+div.big {
     font-size: 1.5rem;
-  }
-  div.small {
-    font-size: 0.8rem;
-  }
+}
+div.small {
+  font-size: 0.8rem;
+}
   
 main div.card {
    /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
