@@ -112,6 +112,7 @@ p{
     width: 100%;
     text-align: center;
     border: 1px dashed;
+    padding: 10px;
 }
 .news-table tr {
     border-radius: 10px; 
@@ -119,18 +120,18 @@ p{
     background-image: linear-gradient( to right, #e0ffff, #ffffff);
 }
 .news-table td {
-    display: block;
-    line-height: 1.5;
+    display: table-cell;
 }
 .date {
+    padding: 1rem 0 1rem 1rem;
     font-size: 1rem;
-    padding-top: 1rem;
-    font-size: 1.2rem;
-}
-.news {
-    padding: 1rem;
     text-align: left;
 }
+.news {
+    padding: 1rem 1rem 1rem 0;
+    text-align: left;
+}
+
 
 main div.card {
   /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
@@ -184,6 +185,22 @@ div.link{
 }
 
 @media (width <= 1200px) {
+html{
+  font-size: 100%;
+}
+.news-table td {
+    display: block;
+    line-height: 1.5;
+}
+.name {
+  padding: 1rem 0 1rem 1rem;
+	font-size: 1rem;
+}
+.news {
+  padding: 1rem;
+  width: 75%;
+}
+  
   header {
     height: 80px;
     padding-left: 5px;
