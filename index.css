@@ -123,12 +123,13 @@ table{
     display: table-cell;
 }
 .date {
-    padding: 1rem 0 1rem 1rem;
+    padding: 0.5rem;
+    width: 160px;
     font-size: 1rem;
     text-align: left;
 }
 .news {
-    padding: 1rem 1rem 1rem 0;
+    padding: 0.5rem;
     text-align: left;
 }
 
@@ -186,7 +187,7 @@ div.link{
 
 @media (width <= 1200px) {
 html{
-  font-size: 200%;
+  font-size: 150%;
 }
 .news-table td {
     display: block;
