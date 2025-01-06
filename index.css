@@ -1,3 +1,7 @@
+html{
+  font-size: 100%;
+}
+
 header {
   margin: 0px;
   width: 100%;
@@ -12,9 +16,10 @@ header {
   #aaaaaa 70% 80%,
   #dddddd 80% 90%,
   #ffffff 90% 100% );
-  height: 110px;
   display: flex;
   justify-content: right;
+  height: 80px;
+  padding-left: 5px;
 }
 
 div.header{
@@ -35,6 +40,7 @@ div.topper{
 }
 
 div.topline {
+margin-top: 0px;
 border-left:2px solid #ffffff;
 border-right:2px solid #ffffff;
 text-align: right;
@@ -123,23 +129,22 @@ p{
     background-image: linear-gradient( to right, #e0ffff, #ffffff);
 }
 .news-table td {
-    display: table-cell;
+    display: block;
 }
 .date {
-    padding: 0.5rem;
-    width: 160px;
-    font-size: 1rem;
-    text-align: center;
+  padding: 1rem 0 1rem 1rem;
+  font-size: 1rem;
+  width: 100%;
+  text-align: left;
 }
 .news {
-    padding: 0.5rem;
-    text-align: left;
+  padding: 0.5rem;
+  text-align: left;
 }
 
 
 main div.card {
-  /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
-  width: calc((100% - 85px) / 3);
+  width: calc(100% - 10px);
   background-color: #dcdddd;
   transition: background-color 0.5s;
   border: 4px solid #dcdddd;
@@ -160,7 +165,7 @@ div.card a{
 }
 
 .image{
-  padding-left: 10px;
+  display: none;
 }
 
 div.list{
@@ -171,8 +176,7 @@ div.list{
 }
 
 div.table{
-  justify-content: space-between;
-  display: table;
+  margin-right: 10px;
 }
 
 
@@ -188,43 +192,34 @@ div.link{
   width: 100%;
 }
 
-@media (max-width: 1200px) {
-html{
-  text-size-adjust: auto;
-}
+@media (min-width: 750px) {
 .news-table td {
-    display: block;
+  display: table-cell;
 }
-.name {
-  padding: 1rem 0 1rem 1rem;
+.date {
+  padding: 0.5rem;
+  width: 160px;
   font-size: 1rem;
-  width: 100%;
-  text-align: left;
-}
-.news {
-  padding: 1rem;
+  text-align: center;
 }
   
 header {
-    height: 80px;
-    padding-left: 5px;
+  height: 110px;
   }
   
-div.topline{
-    margin-top: 0px;
-  }
-
 main div.card {
-    /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
-    width: calc(100% - 10px);
+   /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
+   width: calc((100% - 85px) / 3);
 }
 
 div.table{
-  margin-right: 10px;
+  justify-content: space-between;
+  display: table;
   }
 
 div.image{
-  display: none;
+  display: contents;
+  padding-left: 10px;
 }
 
 }
