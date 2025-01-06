@@ -72,10 +72,10 @@ dt {
   font-weight: 500;
 }
 div.big {
-  font-size: x-large;
+  font-size: 1.2rem;
 }
 div.small {
-  font-size: small;
+  font-size: 0.6rem;
 }
 
 body{
@@ -160,10 +160,6 @@ main div.card {
 div.card:hover {
   background-color: bisque;
   border: 4px solid bisque;
-}
-
-a{
-  color: black;
 }
 
 div.card a{
