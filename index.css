@@ -107,16 +107,16 @@ p{
   padding-left: 5px;
   padding-right: 5px;
 }
-
+table{
+  padding: 20px;
+}
 .news-table {
     width: 100%;
     text-align: center;
     border: 1px dashed;
-    padding: 30px;
+    padding: 10px;
 }
 .news-table tr {
-    border-radius: 10px; 
-    border-bottom: 5px solid var(--white);
     background-image: linear-gradient( to right, #e0ffff, #ffffff);
 }
 .news-table td {
