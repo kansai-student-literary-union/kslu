@@ -188,7 +188,7 @@ div.link{
   width: 100%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 1200px) {
 html{
   text-size-adjust: 80%;
 }
