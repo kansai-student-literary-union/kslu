@@ -135,7 +135,7 @@ a{
     padding: 10px;
 }
 .news-table tr {
-    border-bottom: 5px solid var(--white);
+    border-bottom: 5px solid #fffaef;
 }
 .news-table td {
     display: block;
