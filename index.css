@@ -190,7 +190,7 @@ div.link{
 
 @media (max-width: 1200px) {
 html{
-  text-size-adjust: 80%;
+  text-size-adjust: auto;
 }
 .news-table td {
     display: block;
