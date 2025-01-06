@@ -108,7 +108,7 @@ p{
   padding-right: 5px;
 }
 .news{
-  padding: 10px;
+  padding: 12px;
 }
 .news-table {
     width: 100%;
@@ -185,7 +185,7 @@ div.link{
   width: 100%;
 }
 
-@media (width <= 1200px) {
+@media (width <= 750px) {
 html{
   font-size: 150%;
 }
@@ -202,19 +202,19 @@ html{
   padding: 1rem;
 }
   
-  header {
+header {
     height: 80px;
     padding-left: 5px;
   }
   
-  div.topline{
+div.topline{
     margin-top: 0px;
   }
 
-  main div.card {
+main div.card {
     /* （全体の幅 - gapでつけた余白の合計）をカラム数で割る */
     width: calc(100% - 10px);
-  }
+}
 
 div.table{
   margin-right: 10px;
