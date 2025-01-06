@@ -126,7 +126,7 @@ table{
     padding: 0.5rem;
     width: 160px;
     font-size: 1rem;
-    text-align: left;
+    text-align: center;
 }
 .news {
     padding: 0.5rem;
@@ -195,10 +195,11 @@ html{
 .name {
   padding: 1rem 0 1rem 1rem;
   font-size: 1rem;
+  width: 100%;
+  text-align: left;
 }
 .news {
   padding: 1rem;
-  width: 75%;
 }
   
   header {
