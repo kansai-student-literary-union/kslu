@@ -91,6 +91,7 @@ h1{
   vertical-align: middle;
   margin: 0px;
   padding: 5px;
+  padding-top: 10px;
 }
 
 h2{
@@ -187,7 +188,7 @@ div.link{
   width: 100%;
 }
 
-@media (width <= 750px) {
+@media (width <= 900px) {
 html{
   text-size-adjust: 80%;
 }
