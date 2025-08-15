@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script>
+(function () {
+  // 旧URL: https://kansai-student-literary-union.github.io/kslu/... を → https://ksluweb.github.io/...
+  var u = new URL(location.href);
+  var newPath = u.pathname.replace(/^\/kslu\/?/, '/');
+  var to = 'https://ksluweb.github.io' + newPath + u.search + u.hash;
+  if (location.host !== 'yyy.github.io') location.replace(to);
+})();
+</script>
+<p>本サイトは移転しました。新サイトにリダイレクトします……<br>
+This page has been moved. Redirecting to new page......<br>
+<a id="a"></a>
+<script>document.getElementById('a').href = to;document.getElementById('a').textContent = to;</script>
