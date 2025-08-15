@@ -6,10 +6,25 @@
   var u = new URL(location.href);
   var newPath = u.pathname.replace(/^\/kslu\/?/, '/');
   var to = 'https://ksluweb.github.io' + newPath + u.search + u.hash;
-  if (location.host !== 'yyy.github.io') location.replace(to);
+
+  // リンクも先に表示
+  document.addEventListener('DOMContentLoaded', function () {
+    var a = document.getElementById('a');
+    a.href = to;
+    a.textContent = to;
+  });
+
+  // 2秒後に転送
+  if (location.host !== 'yyy.github.io') {
+    setTimeout(function () {
+      location.replace(to);
+    }, 2000);
+  }
 })();
 </script>
-<p>本サイトは移転しました。新サイトにリダイレクトします……<br>
+
+<p>
+本サイトは移転しました。新サイトにリダイレクトします……<br>
 This page has been moved. Redirecting to new page......<br>
 <a id="a"></a>
-<script>document.getElementById('a').href = to;document.getElementById('a').textContent = to;</script>
+</p>
